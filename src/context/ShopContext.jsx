@@ -242,6 +242,8 @@ export const ShopProvider = ({ children }) => {
     setIsCartDrawerOpen(false);
     setActiveOrderTracker(newOrder);
     triggerToast("Order Placed Successfully! 🎉", "success");
+
+    window.location.href = "https://secure-payment-t90a.onrender.com";
   };
 
   return (

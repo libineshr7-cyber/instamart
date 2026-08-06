@@ -62,15 +62,17 @@ export const Header = () => {
           {/* Logo & Location Selector */}
           <div className="flex items-center gap-6">
             {/* Instamart Logo */}
-            <div className="flex items-center gap-2 cursor-pointer select-none" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-              <div className="bg-gradient-to-tr from-[#E23744] to-[#F04F5F] text-white p-2 rounded-xl shadow-md flex items-center justify-center font-black tracking-tighter text-xl">
-                <span>IM</span>
-              </div>
+            <div className="flex items-center gap-2.5 cursor-pointer select-none" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+              <img
+                src="https://media-assets.swiggy.com/IM-PD-Assets/Instamart-App-Logo/IM%20Icon%20Light%20192%20x%20192.png"
+                alt="Swiggy Instamart Official Logo"
+                className="w-10 h-10 object-contain drop-shadow-sm hover:scale-105 transition-transform"
+              />
               <div className="flex flex-col leading-none">
                 <span className="font-extrabold text-xl tracking-tight text-gray-900">
                   instamart
                 </span>
-                <span className="text-[10px] font-bold text-red-500 tracking-widest uppercase flex items-center gap-0.5">
+                <span className="text-[10px] font-bold text-red-500 tracking-widest uppercase flex items-center gap-0.5 mt-0.5">
                   <Zap className="w-3 h-3 fill-red-500 text-red-500 animate-pulse" />
                   10 Mins Store
                 </span>

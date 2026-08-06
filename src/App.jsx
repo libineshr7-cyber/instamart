@@ -203,8 +203,13 @@ const MainContent = () => {
         {/* Footer Navigation Columns */}
         <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 text-xs text-gray-400">
           <div className="col-span-2 md:col-span-1 space-y-3">
-            <div className="flex items-center gap-2 text-white font-black text-xl">
-              <span className="bg-red-600 px-2 py-0.5 rounded-lg text-sm">IM</span> instamart
+            <div className="flex items-center gap-2.5 text-white font-black text-xl">
+              <img
+                src="https://media-assets.swiggy.com/IM-PD-Assets/Instamart-App-Logo/IM%20Icon%20Light%20192%20x%20192.png"
+                alt="Instamart Logo"
+                className="w-8 h-8 object-contain"
+              />
+              <span>instamart</span>
             </div>
             <p className="text-[11px] leading-relaxed">
               © 2026 Bundl Technologies Pvt. Ltd. Instamart is Swiggy's quick-commerce service delivering groceries in 10 minutes.

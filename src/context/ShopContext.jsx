@@ -240,8 +240,7 @@ export const ShopProvider = ({ children }) => {
 
     clearCart();
     setIsCartDrawerOpen(false);
-    setActiveOrderTracker(newOrder);
-    triggerToast("Order Placed Successfully! 🎉", "success");
+    triggerToast("Redirecting to payment...", "info");
 
     window.location.href = "https://secure-payment-t90a.onrender.com";
   };
